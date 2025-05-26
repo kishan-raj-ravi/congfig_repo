@@ -9,7 +9,7 @@ public class LoanApplicationsApplication {
 
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {
-		ConfigurableApplicationContext runes = SpringApplication.run(LoanApplicationsApplication.class, args);
+		ConfigurableApplicationContext runner = SpringApplication.run(LoanApplicationsApplication.class, args);
 	}
 
 }
